@@ -9,7 +9,7 @@ Technology what i used:
 * CSS
 * JavaScript
 
-_I have got ideas from YouTube videos._
+_I have got ideas from YouTube tutorial videos too._
 
 ## Images:
 
