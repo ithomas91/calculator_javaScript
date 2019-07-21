@@ -4,7 +4,6 @@
           this.currentOperandTextElement = currentOperandTextElement
           this.allClear()
       }
-
       delete() {
           this.currentOperand = this.currentOperand.toString().slice(0, -1)
       }
@@ -87,7 +86,7 @@
 
   const numberButtons = document.querySelectorAll('[data-number]')
   const operationButtons = document.querySelectorAll('[data-operation]')
-  const absoluteValueButton = document.querySelector('[data-absolute-value]')
+  const deleteButton = document.querySelector('[data-delete]')
   const equalsButton = document.querySelector('[data-equals]')
   const allClearButton = document.querySelector('[data-all-clear]')
   const previousOperandTextElement = document.querySelector('[data-previous-operand]')
@@ -114,12 +113,14 @@
       calculator.updateDisplay()
   })
 
-  allClearButton.addEventListener('dblclick', button => {
+  allClearButton.addEventListener('click', button => {
       calculator.allClear()
       calculator.updateDisplay()
   })
 
-  allClearButton.addEventListener('click', button => {
+  deleteButton.addEventListener('click', button => {
       calculator.delete()
       calculator.updateDisplay()
   })
+
+  absoluteValueButton

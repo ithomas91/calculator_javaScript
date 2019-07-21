@@ -20,7 +20,7 @@ _I have got ideas from YouTube videos._
 
 - how my actual project looks like: <br/>
 
-  <img src="images/result.jpg" alt="myApp" width="100" height="100">
+  <img src="images/result2.jpg" alt="myApp" width="100" height="100">
   
 - colors what i used to my project: <br/>
 
